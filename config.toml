@@ -1,4 +1,26 @@
-baseURL = 'https://elmahdibenrais.github.io'
+baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "papper"
+title = 'Chrollo RedLand'
+theme = "paper"
+publishDir = "docs"
+
+disqusShortname = 'Chrollo'   # add disqus comments
+
+[params]
+  # color style
+  color = 'linen'                 # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'elmahdibenrais'     # twitter.com/YOUR_TWITTER_ID
+  github = 'elmahdibenrais'       # github.com/YOUR_GITHUB_ID
+  instagram = 'YOUR_INSTAGRAM_ID' # instagram.com/YOUR_INSTAGRAM_ID
+  rss = true                      # show rss icon with link
+
+  # home page profile
+  avatar = 'https://i.pinimg.com/originals/58/df/ae/58dfae343c0b0078546f3efda94e8cda.jpg'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  name = 'ElMahdi Ben Rais'
+  bio = 'CyberSecurity Consultant'
+
+  # misc
+  disableHLJS = true              # disable requesting highlight.js
+  monoDarkIcon = true             # show monochrome dark mode icon
